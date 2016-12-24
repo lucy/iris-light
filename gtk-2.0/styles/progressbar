@@ -4,12 +4,6 @@ style "progressbar" {
 
 	bg[SELECTED]		=  shade (1.00, @selected_fg_color)
 	fg[PRELIGHT]     	=  @selected_bg_color	#active text-color 
-
-	engine "murrine" {
-		gradient_shades		= {1.00, 1.00, 1.00, 1.00}
-		contrast 			= 0.0		
-		roundness			= 0
-	}
 }
 
 widget_class "*ProgressBar*" style "progressbar"

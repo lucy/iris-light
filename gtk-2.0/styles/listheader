@@ -20,16 +20,6 @@ style "treeview" {
 	GtkTreeView::even_row_color = "#ffffff"
 	GtkTreeView::odd_col_color = "#ffffff"
 	GtkTreeView::even_col_color = "#ffffff"	
-
-    engine "murrine" {
-        cellstyle = 0
-        listviewstyle = 0
-        listviewheaderstyle = 0
-        progressbarstyle = 0
-        glazestyle = 0
-
-        gradient_shades = {2.0,2.0,2.0,2.0}
-    }
 }
 
 widget_class "*List" style "treeview"

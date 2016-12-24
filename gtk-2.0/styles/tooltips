@@ -19,9 +19,5 @@ style "xfdesktop-icon-view"
     fg[NORMAL]	  = @selected_fg_color
     base[SELECTED]  = @selected_bg_color
     fg[SELECTED]  = @selected_fg_color
-	engine "murrine" {
-    textstyle = 1
-    text_shade = 0.1
-}
 }
 widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
